@@ -1,0 +1,78 @@
+<!-- My Portfolio Webpage -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Biography</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="index-style.css"> 
+
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Nav header -->
+    <div id="header">
+        <!-- Navbar -->  
+        <ul id="nav">
+                <li class="active"><a href="index.html">About</a></li>
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>     
+        </ul>
+
+        <!-- Relative teal box around name -->
+        <section id="relative">
+            <aside>
+                    <h1>Jeremy Brown</h1>
+            </aside>
+        </section> 
+        
+    </div>   
+     
+    <div class="main">
+            <section id="main-bio">
+    
+                <h2>About Me</h2>
+    
+                <hr>
+                
+                <!-- Contact Window -->
+                <div class="container">
+                    <form action="action_page.php">
+                        <ul class="stackedBoxes">
+                            <!-- Full Name Textbox-->
+                            <li>
+                                <label for="fullname">Name</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="John Smith..">
+                            </li>
+                            <!-- Email Textbox-->
+                            <li>
+                                <label for="email">E-Mail</label>
+                                <input type="text" id="email" name="email" placeholder="Your email..">
+                            </li>
+                            <!-- Write Message Textbox -->
+                            <li>
+                                <label for="subject">Message</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            </li>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </ul>
+                    
+                    </form>
+                </div>
+                <br>
+            </section>
+        
+    </div>
+
+    
+    
+    </div>
+</body>
+
+</html>
