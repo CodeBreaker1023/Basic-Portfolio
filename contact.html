@@ -15,50 +15,46 @@
 </head>
 
 <body>
-    <!-- Nav header -->
-    <div id="header">
+     <!-- Nav header -->
+     <div id="header">
         <!-- Navbar -->  
         <ul id="nav">
                 <li class="active"><a href="index.html">About</a></li>
                 <li class="active"><a href="portfolio.html">Portfolio</a></li>
                 <li class="active"><a href="contact.html">Contact</a></li>     
         </ul>
-
-        <!-- Relative teal box around name -->
-        <section id="relative">
-            <aside>
-                    <h1>Jeremy Brown</h1>
-            </aside>
-        </section> 
-        
     </div>   
-     
+    
+    <!-- Relative teal box around name -->
+    <div id="relative">
+        <h1>Jeremy Brown</h1>
+    </div>
+
     <div class="main">
             <section id="main-bio">
     
-                <h2>About Me</h2>
+                <h2>Contact Me</h2>
     
                 <hr>
                 
                 <!-- Contact Window -->
                 <div class="container">
-                    <form action="action_page.php">
-                        <ul class="stackedBoxes">
+                    <div class="contact">
                             <!-- Full Name Textbox-->
-                            <li>
+                            <p>
                                 <label for="fullname">Name</label>
-                                <input type="text" id="fullname" name="fullname" placeholder="John Smith..">
-                            </li>
+                                <input type="text" placeholder="John Smith..." style="width: 100%">
+                            </p>
                             <!-- Email Textbox-->
-                            <li>
+                            <p>
                                 <label for="email">E-Mail</label>
-                                <input type="text" id="email" name="email" placeholder="Your email..">
-                            </li>
+                                <input type="text" placeholder="Your email..." style="width: 100%">
+                            </p>
                             <!-- Write Message Textbox -->
-                            <li>
+                            <p id="textbox">
                                 <label for="subject">Message</label>
-                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                            </li>
+                                <textarea type="text" placeholder="Write something..." style="height:200px" style="width: 100%"></textarea>
+                            </p>
                             <br>
                             <input type="submit" value="Submit">
                         </ul>
@@ -74,5 +70,9 @@
     
     </div>
 </body>
+
+<footer>
+    Copyright &copy Jeremy Brown
+</footer>
 
 </html>

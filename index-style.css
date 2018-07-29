@@ -9,21 +9,29 @@ body {
     background-color: rgb(235, 247, 245);
     height: 80px;
     margin: 0px;
+    border: 1px darkslategray;
+}
+
+.container {
+    width: 960px;
+    margin: 
 }
 
 #relative {
     width: 200px;
     height: 80px;
-    margin: 0px 0px 0px 200px;
+    margin: -80px 0px 0px 200px;
     background: teal;
     position: relative;
-    text-align: center;
+    vertical-align: center;
     color: white;
 }
 
 h1 {
-    padding: 30px 10px 30px 10px;
+    padding: 10px 0px 10px 25px;
     font-size: 24px;
+    position: absolute;
+    text-align: center;
 }
 
 h2 {
@@ -58,13 +66,13 @@ a {
     background-color: #e5e4d9;
     margin: 20px 0px 20px 200px;
     width: 960px;
-    padding: 10px 30px 0px 30px;
-    
+    padding: 10px 30px 30px 30px;    
 }
 
 .main-bio {
     margin: 20px;
 }
+
 #bio-image {
     float: left;
     width: 200px;
@@ -75,4 +83,14 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     color: gray;
+}
+
+footer {
+    text-align: center;
+    background-color: slategrey;
+    color: white;
+    height: 100px;
+    vertical-align: text-bottom;
+    border-top: 5px solid teal;
+    margin: 0px 0px -80px 0px;
 }
